@@ -1,4 +1,13 @@
 {
-  "name": "365color",
-  "version": "0.1.0"
-  }
+	"name": "365color",
+	"version": "0.1.1",
+	"description": "365 days birth color",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsc"
+	},
+	"keywords": [ "365color", "365", "color", "npm" ],
+	"devDependencies": {
+		"typescript": "^3.4.1"
+	}
+}
