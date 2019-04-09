@@ -1,1 +1,1 @@
-export declare function add(a: number, b: number): number;
+export declare function getColor(time?: number | string | Date): string;
