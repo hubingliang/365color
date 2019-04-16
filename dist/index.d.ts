@@ -1,1 +1,1 @@
-export declare function getColor(time?: number | string | Date): string;
+export default function getColor(time?: number | string | Date): string;

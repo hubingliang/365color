@@ -1,6 +1,6 @@
 {
   "name": "365color",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "365 days birth color",
   "main": "index.js",
   "scripts": {

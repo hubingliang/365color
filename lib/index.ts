@@ -1,8 +1,8 @@
 import * as dayjs from 'dayjs'
 
-export function getColor(time?: number | string | Date): string {
+export default function getColor(time?: number | string | Date): string {
   if (!dayjs(time).isValid()) {
-    throw 'invalid value, only timestamp(length13),MM-DD,DD,new Date(xxx)'
+    throw 'invalid value, only timestamp(length13),MM-DD,new Date(xxx)'
   } else {
     return colorData[dayjs(time).format('MM-DD')]
   }

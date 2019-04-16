@@ -3,13 +3,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var dayjs = require("dayjs");
 function getColor(time) {
     if (!dayjs(time).isValid()) {
-        throw 'invalid value, only timestamp(length13),MM-DD,DD,new Date(xxx)';
+        throw 'invalid value, only timestamp(length13),MM-DD,new Date(xxx)';
     }
     else {
         return colorData[dayjs(time).format('MM-DD')];
     }
 }
-exports.getColor = getColor;
+exports.default = getColor;
 var colorData = {
     '01-01': '#fffff5',
     '01-02': '#e6eae6',
